@@ -22,7 +22,7 @@ exibirUsuario({ nome: 'Marcos', idade: 22});
 
 //Exemplo de uma função que retorna arrays e tem parametros opicionais
 function listarNomes(nome: string[]): void {
-    nomes.forEach(nome => console.log(nome));
+    nome.forEach(nome => console.log(nome));
 }
 
 listarNomes (['Ana', 'Bruno', 'Carlos']);

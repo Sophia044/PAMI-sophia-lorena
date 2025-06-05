@@ -1,6 +1,7 @@
-let produto: string = 'Mouse';
-let preco: number = 59.90;
-let disponivel: boolean = true;
+// Exercicio 1 - Variáveis com tipos
+const produto: string = 'Mouse';
+const preco: number = 59.90;
+const disponivel: boolean = true;
 
-console.log (`Produto: ${produto} -
- Preço: R$${preco} - Disponivel: ${disponivel ? 'Sim' : 'Não'}`);
+// Exibição formatada
+console.log(`Produto: ${produto} – Preço: R$${preco} – Disponível: ${disponivel ? 'Sim' : 'Não'}`);
