@@ -1,132 +1,90 @@
-# Crie um projeto em Expo✔️
+# Criando um Projeto com Expo ✔️
 
-[](https://github.com/joaovamospular/pam1-Joao_jesus?tab=readme-ov-file#crie-um-projeto-em-expo%EF%B8%8F)
+*Expo* é uma plataforma que simplifica o desenvolvimento de aplicativos com React Native, evitando a configuração complexa de ferramentas como Android Studio e Xcode.
 
-**Expo**  é uma ferramenta que facilita a criação de aplicações React Native, eliminando a necessidade de configurar ambientes complexos como Android Studio ou Xcode. 
+---
 
-----------
+### 💠 Pré-requisitos
 
-### 💠Pré-requisitos
+Antes de começar, certifique-se de ter instalado:
 
-[](https://github.com/joaovamospular/pam1-Joao_jesus?tab=readme-ov-file#pr%C3%A9-requisitos)
+- *Node.js* (preferencialmente a versão LTS)  
+- *npm* ou *yarn* (gerenciadores de pacotes)  
+- *Expo CLI* (instalado via npm)  
+- Um celular com o app *Expo Go* (disponível na Play Store e App Store)  
 
-Antes de começar, é necessário ter instalado:
+---
 
--   **Node.js**  (recomenda-se a versão LTS)
-    
--   **npm**  ou  **yarn**
-    
--   **Expo CLI**  (instalado via npm)
-    
--   Um celular com o aplicativo  **Expo Go**  (disponível na Play Store e App Store)
-    
-
-----------
-
-### 📚Passo a Passo
-
-[](https://github.com/joaovamospular/pam1-Joao_jesus?tab=readme-ov-file#passo-a-passo)
+### 📚 Passo a Passo
 
 #### 1. Instale o Expo CLI
 
-[](https://github.com/joaovamospular/pam1-Joao_jesus?tab=readme-ov-file#1-instale-o-expo-cli)
+Abra o terminal e execute o comando:
 
-Abra o terminal e digite:
-
-```
+bash
 npm install -g expo-cli
 
-```
 
-----------
+#### 2. Crie o projeto
 
-#### 🔨2. Crie o Projeto
+Após a instalação, crie um novo projeto com o comando:
 
-[](https://github.com/joaovamospular/pam1-Joao_jesus?tab=readme-ov-file#2-crie-o-projeto)
+bash
+npx create-expo-app exemplo-app
 
-Depois da instalação, crie um novo projeto com o seguinte comando:
 
-```
-npx create-expo-exemplo-app
+#### 3. Escolha um template
 
-```
+Durante a criação do projeto, o Expo CLI perguntará qual template você quer usar. As opções comuns são:
 
-----------
-
-3.  **📋Escolha um template**
-
-Ao executar o comando acima, o Expo CLI perguntará qual template você deseja usar. Você pode escolher entre:
-
--   **blank**  — projeto básico, sem extras
+-   *blank* — projeto básico, sem nada adicional
     
--   **blank (TypeScript)**  — projeto básico com suporte a TypeScript
+-   *blank (TypeScript)* — projeto básico com suporte a TypeScript
     
--   **tabs (TypeScript)**  — projeto com navegação em abas, usando TypeScript
-    
--   E outros templates que podem estar disponíveis.
+-   *tabs (TypeScript)* — projeto com navegação por abas e TypeScript
     
 
-Escolha o que for melhor para o seu uso.
+Escolha o que melhor se encaixa no seu projeto.
 
-----------
+#### 4. Acesse a pasta do projeto
 
-4.  **📂Entre na pasta do projeto**
+Entre na pasta recém-criada:
 
-Após o projeto ser criado, entre na pasta:
-
-```
+bash
 cd exemplo-app
 
-```
 
-----------
+#### 5. Inicie o servidor de desenvolvimento
 
-5.  **🔑Inicie o projeto**
+Execute o comando:
 
-Execute o servidor de desenvolvimento com:
-
-```
+bash
 expo start
 
-```
 
-Isso abrirá o Expo Developer Tools no navegador, de onde você pode rodar seu app em um emulador ou dispositivo físico.
+Isso abrirá a interface do Expo Developer Tools no navegador, de onde você pode iniciar seu app em emuladores ou dispositivos físicos.
 
-----------
+#### 6. Teste o app no seu celular
 
-6.  **📲Testar o aplicativo no dispositivo**
-
--   No celular, abra o app  **Expo Go**.
+-   Abra o app *Expo Go* no seu celular.
     
--   Use o leitor de QR Code para escanear o código exibido no terminal ou no navegador.
+-   Escaneie o QR Code que aparece no terminal ou no navegador.
     
--   O app será carregado no celular, e toda modificação no código será atualizada automaticamente.
+-   Seu aplicativo será carregado e você poderá ver as mudanças em tempo real conforme edita o código.
     
 
-----------
+#### 7. Compartilhe seu app
 
-7.  📡Compartilhar seu App
+Você pode compartilhar o app com outras pessoas via QR Code, ou exportar para publicação usando:
 
-Você pode compartilhar o app com outras pessoas via QR code, ou publicar com:
-
-```
+bash
 npx expo export
 
-```
 
 ----------
 
-## 🌐 Links úteis
+### 🌐 Links úteis
 
-[](https://github.com/joaovamospular/pam1-Joao_jesus?tab=readme-ov-file#-links-%C3%BAteis)
-
--   [Documentação oficial do Expo](https://docs.expo.dev/get-started/introduction/)
+-   [Documentação oficial do Expo](https://docs.expo.dev/)
     
--   [Documentação do React Native](https://reactnative.dev/)
-    
-
-----------
-
-## ✅Pronto! Agora você tem um projeto em Expo!# Crie um projeto em Expo✔️
-
-[](https://github.com/joaovamospular/pam1-Joao_jesus?tab=readme-ov-file#pronto-agora-voc%C3%AA-tem-um-projeto-em-expo-crie-um-projeto-em-expo%EF%B8%8F)
+-   [Documentação do React Native](https://reactnative.dev/docs/getting-started)
